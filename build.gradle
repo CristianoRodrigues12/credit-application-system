@@ -39,3 +39,7 @@ tasks.withType(KotlinCompile).configureEach {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+tasks.named('new test') {
+	useJUnitPlatform()
+}
